@@ -88,8 +88,3 @@ class XML_preprocessor(object):
 
         return one_hot_vector
 
-## example on how to use it
-import pickle
-data = XML_preprocessor('./path2yourXMLFiles').data
-pickle.dump(data,open('./voc_2007.pkl','wb'))
-
